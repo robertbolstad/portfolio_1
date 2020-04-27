@@ -1,0 +1,374 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html body {
+    padding-top: 30px;
+   }
+
+h1, h2, h3, h4, a{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    background-color: #EFEFEF;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.header{
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #015457;
+    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.logo{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 28px;
+}
+
+.navLinks{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.navLinks li{
+    list-style: none;
+}
+
+.navLinks a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #484848;
+}
+
+.bottomNav{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.bottomNav a{
+    color: #E2E2E2;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.bottomNav li{
+    list-style: none;
+}
+
+.intro-container{
+    padding: 10px;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+
+.intro{
+    background-color: #006367;
+    color: #E2E2E2;
+}
+
+
+.intro-container ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.intro-container img{
+    width: 150px;
+}
+
+.intro-container h1{
+    color: #E2E2E2;
+}
+
+.intro-button{
+    border: 2px solid #E2E2E2;
+    text-decoration: none;
+    color: #E2E2E2;
+    padding: 5px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.portfolio{
+    text-align: center;
+}
+
+.portfolio-flexbox-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 30px;
+    color: #484848;
+}
+
+.portfolio-felxbox-item{
+    background-color: #006367;
+    margin: 0px 10px 20px 10px;
+    color: #E2E2E2;
+    font-size: 0.7em;
+    max-width: 750px;
+    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.portfolio-felxbox-item ul{
+    padding: 15px 0px 15px 0px
+    
+}
+
+.portfolio-felxbox-item a{
+    color: #E2E2E2;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #E2E2E2;   
+}
+
+.project-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.co-own-project-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+
+.screenshot{
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (min-width:500px){
+    .navLinks{
+        width: 70%;
+    }
+    .bottomNav{
+        width: 70%;
+    }
+}
+
+
+@media screen and (min-width:1000px){
+    .portfolio-felxbox-item{
+       max-width: 45%;
+    }
+    .portfolio-flexbox-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (min-width:1300px){
+    .navLinks{
+        width: 35%;
+    }
+    .bottomNav{
+        width: 35%;
+    }
+    .portfolio-felxbox-item{
+        margin: 20px;
+        
+     }
+}
+
+/* about page */
+
+/* cv page */
+
+.cv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cv-section1{
+    text-align: center;
+    color: white;
+    background-color: #006367;
+    padding: 50px 20px 20px 20px;
+
+}
+
+.cv-section2{
+    text-align: center;
+    color: #484848;
+    padding: 50px 20px 20px 20px;
+}
+
+.cv-section1 li, .cv-section2 li{
+    list-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.cv-section1 ul{
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+
+.cv-section2 ul{
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+
+
+.cv-image{
+    width: 200px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.cv-name{
+    border-bottom: 2px solid white;
+}
+
+.cv-tagline{
+    padding-bottom: 30px;
+}
+
+.profile-text{
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.big-icon{
+    width: 60px;
+    margin: 20px;
+}
+
+.small-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.green-box{
+    width: 20px;
+    height: 20px;
+    background-color: #006367;
+    margin-right: 10px;
+}
+
+.bullet-point-box{
+    width: 10px;
+    height: 10px;
+    margin: 2.5px;
+    margin-right: 10px;
+    background-color: black;
+}
+
+.logo-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.logo-list li{
+    padding: 30px;
+    
+}
+
+.logo-list li img{
+    width: 80px;
+    height: 80px;
+}
+
+.bold{
+    font-weight: bold;
+
+}
+
+.skills-text{
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+
+@media screen and (min-width:800px){
+    .cv-section1{
+        width: 40%;
+    }
+    .cv-section2{
+        width: 60%;
+    }
+}
+
+/* contact psge*/
+
+.contact-banner{
+    background-color: #006367;
+    justify-content: center;
+    display: flex;
+    color: white;
+    padding: 50px;
+}
+
+.contact-info{
+ padding: 15px;
+}
+
+.contact-info ul{
+    display: flex;
+    justify-content: left;
+    padding: 2.5px;
+
+}
+
+.contact-info li{
+    list-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+}

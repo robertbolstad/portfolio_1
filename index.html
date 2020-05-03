@@ -1,10 +1,12 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/master.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Homepage</title>
+    <meta name="description" content="This website will serve as my portfolio were I showcase my work from various assignments and projects">
 </head>
 <body>
     <header class="header">
@@ -28,104 +30,77 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="portfolio-banner">
-            <h1>
-                Portfolio
-            </h1>
-        </section>
-        <section class="intro">
-            <div class="intro-wrapper">
-                <h2>
-                    Hello, my  name is Robert Bolstad
-                </h2>
-                <img src="./img/placeholder.jpg" alt="Image of a person">
-                <p>
-                    I'm a 26-year-old student studying Front-end development at Bergen Noroff. This website will serve as my portfolio were I showcase my latest work from various assignments and project I've completed throughout my first year at Noroff. Feel free to look around.
-                </p>
-                 <a href="./about.html">More About Me</a>  
-            </div>
-        </section>
-        <section class="portfolio">
-            <div class="portfolio-flexbox-container">
-                <div class="portfolio-felxbox-item">
-                    <ul class="project-info">
-                        <li><p>Project: CMS module assignment</p></li>
-                        <li><p>Date: 2020/03/29</p></li>
-                    </ul>
-                    <img class="screenshot" src="./img/CMS-Flower-power-project.jpg" alt="screenshot of a website">
-                    <ul>
-                        <li>
-                            <a href="http://www.flower-power.robertbolstad.com/">Visit Website</a>
-                        </li>
-                    </ul>
-                    
+    <main class="main-homepage">
+        <div class="main-wrapper-homepage">
+            <section class="intro">
+                <img src="./img/me.jpg" alt="Image of a person">
+                <div class="intro-text-wrapper">
+                    <h1>
+                        Hello, my  name is Robert Bolstad
+                    </h1>
+                    <p>
+                        I'm a 26-year-old student studying Front-end development at Bergen Noroff. This website will serve as my portfolio were I showcase my work from various assignments and project I've completed throughout my first year at Noroff. Feel free to look around.
+                    </p>
+                    <a href="./about.html">More About Me</a> 
+                </div>    
+            </section>
+            <section class="portfolio">
+                <div  class="portfolio-flexbox-container">
+                    <div class="portfolio-felxbox-item project1">
+                        <a href="http://robertbolstad.com/assignments/semester_project/numetry/homepage.html"><div><h3>
+                            Numetry
+                        </h3>
+                        <p>
+                            Semester project. Website made for numetry
+                        </p>
+                        <p class="click-project">
+                            Click to veiw project
+                        </p>
+                        </div>
+                        </a> 
+                    </div>
+                    <div class="portfolio-felxbox-item project2">
+                        <a href="https://xd.adobe.com/view/df1094bf-fd53-48e6-6586-4316b0f570b0-a921/?fullscreen"><div><h3>
+                            Co-own
+                        </h3>
+                        <p>
+                            Interactive prototype made for Co-own
+                        </p>
+                        <p class="click-project">
+                            Click to veiw project
+                        </p>
+                        </div>
+                        </a>                         
+                    </div>
+                    <div class="portfolio-felxbox-item project3">
+                        <a href="https://github.com/robertbolstad/robert-bolstad-js1-ca/tree/master/javascript-1-ca-master"><div><h3>
+                            Javascript
+                        </h3>
+                        <p>
+                            Website made with javascript
+                        </p>
+                        <p class="click-project">
+                            Click to veiw project
+                        </p>
+                        </div>
+                        </a>                         
+                    </div>
+                    <div class="portfolio-felxbox-item project4">
+                        <a href="http://www.flower-power.robertbolstad.com/"><div><h3>
+                            Flower power
+                        </h3>
+                        <p>
+                            Website made with wordpress
+                        </p>
+                        <p class="click-project">
+                            Click to veiw project
+                        </p>
+                        </div>
+                        </a>                                                          
+                    </div>
                 </div>
-                <div class="portfolio-felxbox-item">
-                    <ul class="project-info">
-                        <li><p>Project: CMS module assignment</p></li>
-                        <li><p>Date: 2020/03/29</p></li>
-                    </ul>
-                    <img class="screenshot" src="./img/Co-own-project.jpg" alt="screenshot of a website">
-                    <ul class="co-own-project-buttons">
-                        <li>
-                            <a href="https://xd.adobe.com/view/6eb4ea2c-1beb-437a-7943-82e305296fe2-1885/">Desktop</a>
-                        </li>
-                        <li>
-                            <a href="https://xd.adobe.com/view/df1094bf-fd53-48e6-6586-4316b0f570b0-a921/?fullscreen">Mobile</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="portfolio-felxbox-item">
-                    <ul class="project-info">
-                        <li><p>Project: CMS module assignment</p></li>
-                        <li><p>Date: 2020/03/29</p></li>
-                    </ul>
-                    <img class="screenshot" src="./img/javascript-CA.jpg" alt="screenshot of a website">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/robertbolstad/robert-bolstad-js1-ca/tree/master/javascript-1-ca-master/js">Veiw Code</a>
-                        </li>
-                    </ul>            
-                </div>
-                <div class="portfolio-felxbox-item">
-                    <ul class="project-info">
-                        <li><p>Project: CMS module assignment</p></li>
-                        <li><p>Date: 2020/03/29</p></li>
-                    </ul>
-                    <img class="screenshot" src="./img/Eduplaytion-project.jpg" alt="screenshot of a website">
-                    <ul>
-                        <li>
-                            <a href="http://robertbolstad.com/assignments/semester_project/numetry/homepage.html">Visit Website</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="portfolio-felxbox-item">
-                    <ul class="project-info">
-                        <li><p>Project: CMS module assignment</p></li>
-                        <li><p>Date: 2020/03/29</p></li>
-                    </ul>
-                    <img class="screenshot" src="./img/HTML-and-CSS-CA.jpg" alt="screenshot of a website">
-                    <ul>
-                        <li>
-                            <a href="http://robertbolstad.com/assignments/html&css-ca/re-cycle/homepage.html">Visit Website</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="portfolio-felxbox-item">
-                    <ul class="project-info">
-                        <li><p>Project: CMS module assignment</p></li>
-                        <li><p>Date: 2020/03/29</p></li>
-                    </ul>
-                    <img class="screenshot" src="./img/timeline.jpg" alt="picture of a timeline snake">
-                    <ul>
-                        <li>
-                            <a href="http://robertbolstad.com/assignments/wct/2019-09-30_Timeline_of_the%20history_of_the_web_Robert_Bolstad_WCT_CA.pdf">Veiw PDF</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
     <footer class="footer">
         <p>@ Copyright robertbolstad.com 2020 | All Rights Reserved</p>

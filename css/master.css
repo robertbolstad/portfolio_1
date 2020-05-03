@@ -104,7 +104,8 @@ p{
 .intro h1{
     color: #1c1259;
     margin-left: auto;
-    margin-right: auto;   
+    margin-right: auto;
+    width: 90%;  
 }
 
 .intro a{
@@ -288,6 +289,9 @@ p{
         padding-left: 0px;
         margin-left: 0px;  
         margin-right: auto; 
+    }
+    .intro h1{
+        width: 100%;
     }
 
 }
@@ -531,22 +535,23 @@ p{
 
 
 .logo-list{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    text-align: center;
+
+
 }
 
 .logo-list li{
-    padding: 10px;
     list-style: none;
-    padding: 5%;
+    width: 80px;
+    display: inline;
+
     
 }
 
 .logo-list li img{
     width: 80px;
     height: 80px;
+    margin: 20px;
 }
 
 .bold{
